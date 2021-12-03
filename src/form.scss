@@ -1,0 +1,152 @@
+.bg-light{
+    background-color: white;
+}
+.bg-dark{
+    background: rgba(230, 230, 230, 1);
+}
+.form-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 4px;
+    label{
+        color: #303030;
+        font-size: 14px;
+           line-height: 22px;
+           margin-bottom: 5px;
+    }
+    input{
+        height: 28px;
+        width: 264px;
+        outline: none;
+        background: #FFFFFF;
+        border-radius: 4px;
+        border: 1px solid #D9D9D9;
+       
+    }
+    input::placeholder{
+        padding: 10px;
+    }
+    select{
+        height: 28px;
+        width: 264px;
+        outline: none;
+        background: #FFFFFF;
+        border-radius: 4px;
+        border: 1px solid #D9D9D9;
+        // margin-right: 25px;
+        
+        
+        // :nth-child(1){
+        //     color: #8C8C8C;
+        // }
+    }
+    textarea{
+        resize: none;
+        border: 1px solid #D9D9D9;
+        outline: none;
+        width: 100%;
+        border-radius: 4px;
+    }
+    .small-width-input{
+       input{
+           width: 118px;
+           margin-right: 10px;
+       } 
+    }
+    .form-header{
+        
+        font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+color: #303030;
+margin-bottom: 30px;
+
+    }
+    .form-inner-wrapper{
+        display: flex;
+      flex-flow: row wrap;
+    }
+    .input-wrapper{
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        
+       
+       
+    }
+    
+  
+}
+
+.wrapper{
+    
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    border:2px solid black;
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+        // border:2px solid red;
+        margin-bottom: 20px;
+        :nth-child(1){
+            display: flex;
+        }
+        :nth-child(2){
+            display: flex;
+            
+        }
+        span{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 110px;
+            border-radius: 4px;
+        }
+        .header-btn{
+            button{
+                font-family: 'Roboto', sans-serif;
+                outline: none;
+                border-radius: 4px;
+                border: none;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 10px;
+                margin-left: 10px;
+                
+            }
+            :nth-child(1){
+                border: 1px solid rgba(25, 70, 157, 1);
+                color: rgba(25, 70, 157, 1);
+                background: white;
+                width: 110px;
+                
+
+            }
+            :nth-child(2){
+                img{
+                    all: unset;
+                }
+                background: rgba(25, 70, 157, 1);
+                color: white;
+
+            }
+        }
+    }
+    :nth-child(6){
+       
+
+        >.form-inner-wrapper{
+            
+            display: flex;
+            justify-content: space-between;
+            .form-wrapper{
+                width: 45%;
+            }
+        }
+    }
+}

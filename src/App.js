@@ -2,6 +2,7 @@
 
 import Card from "./Card";
 import Comp from "./Comp";
+import Form from "./Form";
 
 let style={
  height:'100vh' ,
@@ -12,7 +13,8 @@ function App() {
   return (
       <div style={style}>
         <Card/>    
-        <Comp/>       
+        <Comp/>  
+        <Form/>
      
       </div>
   );
